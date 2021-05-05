@@ -1,0 +1,1017 @@
+/*
+Theme name: Swiss landing page custom theme
+Author: Khoi Tran
+Version: 1.0
+ */
+body {
+    font-family: Arial;
+}
+
+/* Header section */
+header {
+    background-color: #D82C28;
+}
+
+div.logo {
+    background-color: #D82C28;
+    border-radius: 20px;
+}
+
+div.logo > img {
+    max-width: 60%;
+}
+
+nav[role="navigation-bar"] {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav[role="navigation-bar"] > input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+nav[role="navigation-bar"] > label {
+    display:none;
+    cursor: pointer;
+    user-select:none;
+}
+
+nav[role="navigation-bar"] > ul {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+nav[role="navigation-bar"] > ul > li {
+    display: inline-block;
+    padding:0.25em 1em;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+nav[role="navigation-bar"] > ul > li > a {
+    box-sizing: content-box;
+    color: white;
+}
+
+nav[role="navigation-bar"] > ul > li > a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+nav[role="navigation-bar"] > ul > li > a:active {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* Sub menu */
+nav[role="navigation-bar"] ul.sub-menu-item {
+    visibility: hidden;
+    z-index: 10;
+    list-style: none;
+    position: absolute;
+
+    padding: 0.4em;
+    text-align: left;
+
+    font-size: 16px;
+    font-weight: normal;
+
+    background-color: white;
+}
+
+nav[role="navigation-bar"] ul.sub-menu-item > li {
+    padding: 0.4em;
+}
+
+nav[role="navigation-bar"] ul.sub-menu-item > li > a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in;
+}
+
+nav[role="navigation-bar"] ul.sub-menu-item > li > a:hover {
+    color: #D82C28;
+}
+
+div.social-icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.social-icon > ul {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+div.social-icon > ul > li {
+    font-size: 25px;
+    color: white;
+    display: inline;
+    padding:0.25em 0.25em;
+    margin: 0.25em;
+}
+
+div.social-icon > ul > li > img {
+    width: 25px;
+}
+
+/* Banner carousel */
+section.banner-carousel {
+    margin-bottom: 4em;
+}
+
+section.banner-carousel > div.container-fluid {
+    padding: 0;
+}
+
+div.carousel-inner > div.carousel-item > img {
+    object-fit: cover;
+    width: 100%;
+    height: 596px;
+}
+
+/* About us section */
+section.about-us {
+    margin-bottom: 4em;
+}
+
+section.about-us > div {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+
+    background-image: url("image/banner-desaturate.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 596px;
+}
+
+div.about-us-content {
+    text-align: center;
+    margin: auto;
+    padding: 30px 40px;
+    width: 40%;
+
+    border-radius: 20px;
+    background-color: rgba(128,128,128,0.7);
+}
+
+div.about-us-content > h2 {
+    background-color: #D82C28;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+
+    border-radius: 20px;
+    border: solid white 4px;
+}
+
+div.about-us-content > p {
+    text-align: justify;
+    text-align-last: center;
+    text-justify: auto;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    color: white;
+    font-weight: normal;
+}
+
+div.about-us-content > a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Why choose us section */
+section.why-choose-us {
+    margin-bottom: 4em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+div.why-choose-us-title {
+    background-image: url("image/why-choose-us.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    height: 596px;
+}
+
+div.why-choose-us-title > h2 {
+    margin: auto;
+    color: #D82C28;
+
+    text-align: center;
+
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+
+    border-radius: 20px;
+    border: solid white 4px;
+}
+
+div.reasons {
+    height: 596px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.reason {
+    display: flex;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+div.reason > i {
+    margin-right: 0.5em;
+    font-size: 30px;
+    color: #D82C28;
+}
+
+div.reason > div.content > h4 {
+    color: #D82C28;
+    font-weight: bold;
+}
+
+div.reason > div.content > p {
+    text-align: justify;
+    text-justify: auto;
+}
+
+/* Product */
+section.product {
+    margin-bottom: 4em;
+    padding-right: 15em;
+    padding-left: 18em;
+}
+
+section.product > div.container-fluid > div.title {
+    margin-bottom: 1em;
+    text-align: center;
+}
+section.product > div.container-fluid > div.title > h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5.5em;
+
+    color: #D82C28;
+    font-weight: bold;
+
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid black;
+}
+
+div.product {
+    text-align: center;
+    padding: 0 2em 0 2em;
+    width: 70%;
+}
+
+div.product > img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.product > h5 {
+    background-color: #D82C28;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+
+    border-radius: 20px;
+    border: solid white 1px;
+
+    transition: background-color 0.3s ease-in;
+}
+
+div.product > h5:hover {
+    background-color: white;
+    color: #D82C28;
+    border: 1px solid #D82C28;
+}
+
+div.product > h5 > a {
+    color: white;
+}
+
+div.product > h5 > a:hover {
+    color: #D82C28;
+    text-decoration: none;
+}
+
+/* Product page css */
+/* Main content */
+main {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+/* Banner section */
+section.banner {
+    display: flex;
+    align-items: center;
+
+    background-image: url("image/alinahorn.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+
+    margin-bottom: 4em;
+}
+
+section.banner > div {
+    text-align: center;
+}
+
+section.banner > div > h2 {
+    display: inline-block;
+
+    margin: auto;
+    color: #D82C28;
+
+    font-weight: bolder;
+    text-align: center;
+
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 100px;
+}
+
+section.banner > div > h1.first-line {
+    color: white;
+    line-height: 1;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+section.banner > div > h1.second-line {
+    color: black;
+    line-height: 1;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+section.banner > div > p {
+    color: black;
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Our advantage section */
+section.strength {
+    margin-bottom: 4em;
+    background-color: #EEEFEF;
+
+    padding: 2em;
+}
+
+section.strength > div.container-fluid > div.row > div.col-sm-3 {
+    text-align: center;
+    width: 50%;
+    padding: 0 5em;
+}
+
+section.strength > div.container-fluid > div.row > div.col-sm-3 > h3 {
+    margin-bottom: 0.5em;
+}
+
+section.strength > div.container-fluid > div.row > div.col-sm-3 > img {
+    width: 30%;
+    margin-bottom: 0.5em;
+}
+
+section.strength > div.container-fluid > div.row > div.col-sm-3 > p {
+    text-align: justify;
+    text-justify: auto;
+}
+
+/* Product section */
+section.product-list {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+section.product-list > div.row > div.col-sm-6 {
+    display: flex;
+    align-items: center;
+}
+
+section.product-list > div.row.item-right{
+    margin-bottom: 2em;
+}
+
+section.product-list > div.row.item-left{
+    margin-bottom: 2em;
+}
+
+section.product-list > div.row > div.image > img {
+    width: 100%;
+}
+
+/* Product item left */
+section.product-list > div.row.item-left > div.image {
+    text-align: center;
+}
+
+/* Product item right */
+section.product-list > div.row.item-right > div.image {
+    text-align: center;
+}
+
+section.product-list > div.row div.content > div.button-group > button {
+    background-color: #D82C28;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    width: 40%;
+    border-radius: 20px;
+    border: 1px solid #D82C28;
+
+    transition: background-color 0.3s ease-in;
+}
+
+section.product-list > div.row div.content > div.button-group > button:hover {
+    background-color: white;
+    color: #D82C28;
+}
+
+ul.description {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.description > li {
+    text-align: justify;
+    text-justify: auto;
+    margin-bottom: 0.5em;
+}
+
+ul.description > li > span {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    overflow: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #D82C28;
+}
+
+div.footer-logo > img {
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+div.intro-text {
+    color: white;
+}
+
+div.intro-text > p {
+    text-align: justify;
+    text-justify: auto;
+}
+
+div.contact-list > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+div.contact-list > ul > li {
+    color: white;
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+div.contact-list > ul > li > p.address {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+div.contact-list > ul > li > i {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+div.social-list > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+div.social-list > ul > li {
+    display: inline;
+    width: 50px;
+    padding-right:1em;
+}
+
+div.social-list > ul > li > i {
+    font-size: 25px;
+    color: white;
+}
+
+/* Send email form */
+div.send-email-form > h3 {
+    color: white;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+
+div.send-email-form > form {
+    text-align: center;
+}
+
+div.send-email-form > div.wpcf7 form p {
+    margin-bottom: 0;
+}
+
+div.send-email-form > div.wpcf7 form p input {
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 1.5em;
+}
+
+div.send-email-form > div.wpcf7 form p input.submit-button {
+    display: block;
+    margin: auto;
+    width: 40%;
+    border: 1px solid white;
+    padding: 1em;
+    background-color: #D82C28;
+    color: white;
+    border-radius: 30px;
+
+    font-weight: bold;
+
+    transition: background-color 0.3s ease-in;
+}
+
+div.send-email-form > div.wpcf7 form p input.submit-button:hover {
+    background-color: white;
+    color: #D82C28;
+}
+
+/* Popup */
+section.popup {
+    display: none;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.7);
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+section.popup > div.container > div.popup {
+    background-color: white;
+
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: auto;
+    max-height: 55rem;
+}
+
+section.popup > div.container > div.popup > div.button-exit {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+section.popup > div.container > div.popup > div.button-exit > div {
+    text-align: center;
+    background-color: #D82C28;
+    border: 1px solid #D82C28;
+    color: white;
+    width: 2em;
+    height: 2em;
+
+    position: fixed;
+    transition: background-color 0.3s ease-in;
+}
+
+section.popup > div.container > div.popup > div.button-exit > div:hover {
+    color: #D82C28;
+    background-color: white;
+}
+
+section.popup > div.container > div.popup > div.product-img-gallery {
+    text-align: center;
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section.popup div.buy-button {
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+section.popup > div.container > div.popup > div.text-content {
+    padding: 2em;
+    text-align: justify;
+    text-justify: auto;
+}
+
+section.popup > div.container > div.popup > div.product-img-gallery > div.main-image {
+    display: inline-block;
+
+    width: 30em;
+    height: 30em;
+
+    margin-bottom: 1em;
+}
+
+section.popup > div.container > div.popup > div.product-img-gallery > div.main-image > img {
+    width: 100%;
+}
+
+section.popup > div.container > div.popup > div.product-img-gallery > div.img-list > img {
+    width: 6em;
+    height: 6em;
+
+    margin: 0 1em;
+}
+
+section.popup > div.container > div.popup > div.product-img-gallery > div.img-list > img:hover {
+    border: 1px solid #D82C28;
+}
+
+/* Buy button */
+div.buy-button > button {
+    width: 20%;
+    border: 1px solid white;
+    padding: 1em;
+    background-color: #D82C28;
+    color: white;
+    border-radius: 30px;
+
+    font-weight: bold;
+    transition: background-color 0.3s ease-in;
+}
+
+div.buy-button > button:hover {
+    background-color: white;
+    color: #D82C28;
+    border: 1px solid #D82C28;
+}
+
+/* New detail page */
+section.post-info {
+    margin-bottom: 4em;
+}
+section.post-info div.post-title {
+    text-align: center  ;
+    margin-top: 2em;
+}
+section.post-info div.post-title > h2 {
+    display: inline-block;
+
+    margin-bottom: 0.5em;
+}
+
+section.post-info > div.container > div.post-meta {
+    border-left: 4px solid #D82C28;
+    padding-left: 1em;
+}
+
+section.post-info > div.container > div.post-meta > span {
+    margin-right: 2em;
+}
+
+section.post-info > div.container > div.post-meta > span > i {
+    margin-right: 0.5em;
+}
+
+section.post-info > div.container > div.feature-image {
+    text-align: center;
+}
+
+section.post-info > div.container > div.feature-image > img {
+    width: 60%;
+}
+
+/* Related post */
+section.related-post {
+    margin-bottom: 4em;
+}
+
+section.related-post img.post-thumb {
+    width: 100%;
+}
+
+section.related-post > div.container {
+    text-align: center;
+}
+
+section.related-post > div.container > h2 {
+    display: inline-block;
+
+    color: #D82C28;
+    font-weight: bold;
+
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid black;
+}
+
+/* News list page */
+section.post-list {
+    margin-bottom: 4em;
+
+    text-align: center;
+}
+
+section.post-list div.post-thumbnail > img {
+    width: 100%;
+}
+
+/* Phone responsive */
+@media only screen and (max-width: 600px) {
+    /* Header */
+    header {
+        position: fixed;
+        z-index: 999;
+    }
+
+    div.logo > img{
+        width: 40%;
+    }
+
+    div.social-icon > ul {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+
+    div.social-icon > ul > li {
+        display: list-item;
+        background-color: #C21A16;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    /* Navigation bar */
+    nav[role="navigation-bar"] > ul {
+        display:none;
+        height:100%;
+    }
+
+    nav[role="navigation-bar"] > label {
+        position:relative;
+        display:block;
+        width:100%;
+    }
+
+    nav[role="navigation-bar"] > ul > li {
+        text-align: middle;
+    }
+
+    nav[role="navigation-bar"] > ul > li > a {
+        color: black;
+    }
+
+    nav[role="navigation-bar"] > ul > li > a:hover {
+        color:  #C21A16;
+    }
+
+    nav[role="navigation-bar"] > ul > li > ul.sub-menu-item {
+        position: static;
+        text-align: center;
+        display: none;
+    }
+
+    nav[role="navigation-bar"] > label:after {
+        margin-left: 90%;
+        content:"\2261";
+        font-size:1.8em;
+    }
+
+    nav[role="navigation-bar"] > input[type=checkbox]:checked ~ ul {
+        display: block;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    nav[role="navigation-bar"] > input[type=checkbox]:checked ~ ul > li {
+        display: block;
+        position: relative;
+        color: #D82C28;
+        padding: 0.25em 0.25em;
+    }
+
+    /* Section banner carousel */
+    section.banner-carousel {
+        padding-top: 51px;
+    }
+
+    /* Section strength */
+    section.strength > div.container-fluid > div.row > div.col-sm-3 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+
+    /* Section why choose us */
+    section.why-choose-us {
+        padding: 1em;
+        margin: 0;
+    }
+
+    div.reasons {
+        margin-top: 2em;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.reason {
+        margin: 0;
+    }
+
+    /* Section product */
+    section.product {
+        padding: 1em;
+        margin-bottom: 0;
+    }
+
+    div.product {
+        width: 100%;
+        margin-bottom: 2em;
+        padding: 0;
+    }
+
+    div.product > h5 {
+        font-size: 1em;
+    }
+
+    div.product > img {
+        width: 100%;
+    }
+
+    /* About us section */
+    div.about-us-content {
+        width: 90%;
+    }
+
+    div.about-us-content > h2 {
+        width: 100%;
+
+        font-size: 1.5em;
+    }
+
+    /* Product page - Section product */
+    main {
+        padding: 2em;
+    }
+
+    section.product-list {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    section.product-list > div.row > div.col-sm-6 {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    section.product-list div.button-group {
+        display: flex;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 0;
+    }
+
+    div.footer-content {
+        margin-bottom: 50px;
+    }
+
+    div.intro-text > p {
+        width: 100%;
+    }
+
+    div.social-list {
+        display: none;
+    }
+
+    /* Form */
+    div.send-email-form > div.wpcf7 form p input {
+        margin-bottom: 0.3em;
+    }
+}
+
+/* Ulities class */
+.is-active {
+    border: 1px solid #D82C28;
+}
+
+.post-thumbnail {
+    border: 2px solid white;;
+    transition: border-color 0.2s ease-in;
+}
+
+.post-thumbnail:hover {
+    border: 2px solid #D82C28;
+}
+
+.page-title {
+    display: inline-block;
+
+    color: #D82C28;
+    font-weight: 500;
+
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid black;
+}
+.paging {
+    margin-top: 1em;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+}
+
+.pagination-item {
+    display: inline-block;
+    width: 2.5em;
+
+    line-height: 2.5em;
+    vertical-align: middle;
+
+    border-radius: 100%;
+    border: 1px solid #D82C28;
+
+    background-color: #D82C28;
+    color: white;
+
+    transition: background-color 0.3s ease-in;
+}
+
+.pagination-item:hover {
+    background-color: white;
+    color: #D82C28;
+}
+
+.excerpt {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.custom-link {
+    color: black;
+}
+
+.custom-link:hover {
+    color:#D82C28;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+.custom-icon {
+    transition: transform 0.3s ease-in; /* this is grow duration */
+}
+
+.custom-icon:hover {
+    transform:scale(1.5); /* this is grow amount */
+}
+
+
+
+
