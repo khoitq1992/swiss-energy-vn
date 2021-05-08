@@ -4,22 +4,22 @@ $theme_url = get_template_directory_uri() . '/';
 ?>
 
 <!-- Footer -->
-<footer>
+<footer id="footer">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 footer-content">
-				<div class="footer-logo">
+				<div id="contact-info" class="footer-logo">
 					<img src="<?php echo $theme_url; ?>image/logo.png">
 				</div>
 				<div class="intro-text">
-					<h5>Công Ty Cổ Phần Swiss Energy Việt Nam</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis tincidunt tempus. Ut volutpat ultricies dignissim. Fusce nec nibh ac ex maximus malesuada. Nullam porttitor justo est, at ullamcorper justo ornare sit amet. Maecenas non ultrices mi. Nullam dui nibh, interdum nec felis et, condimentum egestas dolor.</p>
+					<h5>SWISS ENERGY VIỆT NAM</h5>
+					<p>Swiss Energy là nhà cung cấp các loại thực phẩm bảo vệ sức khoẻ, thực phẩm bổ sung và thực phẩm dinh dưỡng y học, cũng như các sản phẩm chăm sóc cá nhân. Chúng tôi cung cấp một loạt các sản phẩm như vitamin và khoáng chất, dinh dưỡng cho chế độ vận động thể thao, dinh dưỡng cho trẻ em, kiểm soát cân nặng, cải thiện sắc đẹp và sức khỏe hệ tiêu hóa.</p>
 				</div>
 				<div class="contact-list">
 					<ul>
-						<li><i class="fas fa-map-marked"></i><p class="address">30/7 Hùng Vương, P.Lộc Thọ, Tp Bình Dương, Tỉnh Bình Dương, Việt Nam</p></li>
-						<li><i class="far fa-envelope"></i><span class="mail">khoitq.1992@gmail.com</span></li>
-						<li><i class="fas fa-phone"></i><span class="phone">+84 7777 20221</span></li>
+						<li><i class="fas fa-map-marked"></i><p class="address">Lầu 4, Tòa nhà HP, 60 Nguyễn Văn Thủ, Phường Đa Kao, Quận 1, TP.HCM</p></li>
+                        <li><i class="fas fa-phone"></i><span class="phone"><a class="custom-link" href="tel:0909827715">+84 909 827 715</a> </span></li>
+						<li><i class="far fa-envelope"></i><span class="mail">info@medpackplus.com</span></li>
 					</ul>
 				</div>
 				<div class="social-list">

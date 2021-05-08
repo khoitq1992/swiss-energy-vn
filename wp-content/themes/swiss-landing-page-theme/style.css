@@ -17,7 +17,7 @@ div.logo {
     border-radius: 20px;
 }
 
-div.logo > img {
+div.logo > a > img {
     max-width: 60%;
 }
 
@@ -44,11 +44,12 @@ nav[role="navigation-bar"] > ul {
     margin: auto;
     text-align: center;
     padding: 5px;
+    text-wrap: none;
 }
 
 nav[role="navigation-bar"] > ul > li {
     display: inline-block;
-    padding:0.25em 1em;
+    padding:0.25em 1.5em;
     font-size: large;
     font-weight: bold;
     color: white;
@@ -61,7 +62,22 @@ nav[role="navigation-bar"] > ul > li > a {
 
 nav[role="navigation-bar"] > ul > li > a:hover {
     color: white;
-    border-bottom: 2px solid white;
+    text-decoration: none;
+}
+
+nav[role="navigation-bar"] > ul > li > a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    transform-origin: center center;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+
+nav[role="navigation-bar"] > ul > li > a:hover::after {
+    transform: scale(1, 1);
 }
 
 nav[role="navigation-bar"] > ul > li > a:active {
@@ -215,13 +231,15 @@ div.why-choose-us-title {
 
 div.why-choose-us-title > h2 {
     margin: auto;
-    color: #D82C28;
+    color: white;
+
+    font-weight: bold;
 
     text-align: center;
 
     width: 350px;
     height: 150px;
-    padding: 20px;
+    padding: 30px;
 
     border-radius: 20px;
     border: solid white 4px;
@@ -403,9 +421,15 @@ section.strength > div.container-fluid > div.row > div.col-sm-3 > img {
     margin-bottom: 0.5em;
 }
 
+section.strength > div.container-fluid > div.row > div.col-sm-3 > img.one-hundred {
+    width: 45%;
+    margin-bottom: 0.5em;
+}
+
 section.strength > div.container-fluid > div.row > div.col-sm-3 > p {
     text-align: justify;
     text-justify: auto;
+    text-align-last: center;
 }
 
 /* Product section */
@@ -516,6 +540,10 @@ div.contact-list > ul > li > i {
     font-size: 20px;
     margin-right: 20px;
     margin-top: 5px;
+}
+
+div.contact-list a.custom-link:hover {
+    color: white;
 }
 
 div.social-list > ul {
@@ -801,6 +829,7 @@ section.post-list div.post-thumbnail > img {
     }
 
     nav[role="navigation-bar"] > ul > li > a {
+        text-decoration: none;
         color: black;
     }
 
@@ -995,7 +1024,7 @@ section.post-list div.post-thumbnail > img {
 }
 
 .custom-link {
-    color: black;
+    color: white;
 }
 
 .custom-link:hover {
@@ -1012,6 +1041,7 @@ section.post-list div.post-thumbnail > img {
     transform:scale(1.5); /* this is grow amount */
 }
 
+.
 
 
 

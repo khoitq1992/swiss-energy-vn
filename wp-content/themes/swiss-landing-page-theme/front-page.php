@@ -35,7 +35,7 @@ $theme_url = get_template_directory_uri() . '/';
         <div class="container-fluid">
             <div class="about-us-content">
                 <h2>VỀ CHÚNG TÔI</h2>
-                <p>Swiss energy là tập đoàn sản xuất và phân phối thực phẩm chức năng, thực phẩm bổ sung và thực phẩm dinh dưỡng y học hàng đầu Thụy Sỹ với lịch sử hơn 100 năm thực hiện sứ mệnh mang đến một cuộc sống khỏe cho hàng triệu người trên thế giới.</p>
+                <p>Swiss Energy là tập đoàn sản xuất và phân phối thực phẩm chức năng, thực phẩm bổ sung và thực phẩm dinh dưỡng y học hàng đầu Thụy Sỹ với lịch sử hơn 100 năm thực hiện sứ mệnh mang đến một cuộc sống khỏe cho hàng triệu người trên thế giới.</p>
                 <a href="#">XEM THÊM</a>
             </div>
         </div>
@@ -46,7 +46,7 @@ $theme_url = get_template_directory_uri() . '/';
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-5 why-choose-us-title">
-                    <h2>Vì sao chọn Swiss Energy</h2>
+                    <h2>Vì sao chọn<br> Swiss Energy</h2>
                 </div>
                 <div class="col-sm-7 reasons">
                     <div class="reason">
@@ -88,24 +88,24 @@ $theme_url = get_template_directory_uri() . '/';
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3">
-                    <img src="<?php echo $theme_url; ?>image/plant-based.svg" alt="strength-1">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nisl cursus, vehicula diam a, tincidunt purus.</p>
+                    <img class="one-hundred" src="<?php echo $theme_url; ?>image/100_PLUS.svg" alt="strength-1">
+                    <h3>NĂM</h3>
+                    <p>Lịch sử hình thành và phát triển<br> của chúng tôi.</p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="<?php echo $theme_url; ?>image/plant-based.svg" alt="strength-1">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nisl cursus, vehicula diam a, tincidunt purus.</p>
+                    <img src="<?php echo $theme_url; ?>image/70.svg" alt="strength-1">
+                    <h3>QUỐC GIA</h3>
+                    <p>Swiss Energy không ngừng phát triển thị trường rộng khắp trên toàn cầu.</p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="<?php echo $theme_url; ?>image/plant-based.svg" alt="strength-1">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nisl cursus, vehicula diam a, tincidunt purus.</p>
+                    <img src="<?php echo $theme_url; ?>image/90_PLUS.svg" alt="strength-1">
+                    <h3>SẢN PHẨM</h3>
+                    <p>Chúng tôi có danh mục sản phẩm đa dạng đáp ứng mọi nhu cầu cải thiện sức khỏe, cho mọi lứa tuổi.</p>
                 </div>
                 <div class="col-sm-3">
-                    <img src="<?php echo $theme_url; ?>image/plant-based.svg" alt="strength-1">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at nisl cursus, vehicula diam a, tincidunt purus.</p>
+                    <img src="<?php echo $theme_url; ?>image/10_PLUS.svg" alt="strength-1">
+                    <h3>TRIỆU NGƯỜI </h3>
+                    <p>Swiss Energy chăm sóc sức khỏe cho hàng triệu người trên toàn cầu.</p>
                 </div>
             </div>
         </div>
@@ -120,11 +120,11 @@ $theme_url = get_template_directory_uri() . '/';
             <div class="row">
                 <div class="col-sm-6 product">
                     <img src="<?php echo $theme_url; ?>image/product-image-1.jpg">
-                    <h5><a href="<?php echo get_site_url() . "/product-type-1"?>">VIÊN NANG PHÓNG THÍCH CHẬM</a></h5>
+                    <h5><a class="custom-link" href="<?php echo get_site_url() . "/vien-nang-giai-phong-cham"?>">VIÊN NANG GIẢI PHÓNG CHẬM</a></h5>
                 </div>
                 <div class="col-sm-6 product">
                     <img src="<?php echo $theme_url; ?>image/product-image-1.jpg">
-                    <h5><a href="<?php echo get_site_url() . "/product-type-2"?>">KẸO NGẬM THẢO DƯỢC</a></h5>
+                    <h5><a class="custom-link" href="<?php echo get_site_url() . "/vien-keo-ngam-thao-moc"?>">KẸO NGẬM THẢO MỘC</a></h5>
                 </div>
             </div>
         </div>

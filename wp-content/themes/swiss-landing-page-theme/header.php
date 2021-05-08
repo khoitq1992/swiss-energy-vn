@@ -8,7 +8,7 @@ $theme_url = get_template_directory_uri() . '/';
     <?php wp_head(); ?>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>SWISS LANDING PAGE</title>
+	<title><?php echo get_bloginfo( 'name' ); ?></title>
 
 	<!-- Boottrap 4 CSS-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -22,7 +22,7 @@ $theme_url = get_template_directory_uri() . '/';
 		<div class="row">
 			<div class="col-6 col-sm-3">
 				<div class="logo">
-					<img src="<?php echo $theme_url; ?>image/logo.png">
+					<a href="<?php echo get_site_url();?>"><img src="<?php echo $theme_url; ?>image/logo.png"></a>
 				</div>
 			</div>
 			<div class="col-6 col-sm-6">
@@ -30,15 +30,15 @@ $theme_url = get_template_directory_uri() . '/';
 					<input type="checkbox" id="button">
 					<label for="button" onclick></label>
 					<ul>
-						<li><a href="http://webtestkt.xyz">Trang chủ</a> </li>
+						<li><a href="<?php echo get_site_url()?>">Trang chủ</a> </li>
 						<li class="menu-item">Sản phẩm
                             <ul class="sub-menu-item">
-                                <li><a href="<?php echo get_site_url() . "/product-type-1"?>">Viên nang giải phóng chậm</a></li> <!-- Custom url here-->
-                                <li><a href="<?php echo get_site_url() . "/product-type-2"?>">Kẹo ngậm thảo dược</a></li> <!-- Custom url here-->
+                                <li><a href="<?php echo get_site_url() . "/vien-nang-giai-phong-cham"?>">Viên nang giải phóng chậm</a></li> <!-- Custom url here-->
+                                <li><a href="<?php echo get_site_url() . "/vien-keo-ngam-thao-moc"?>">Viên kẹo ngậm thảo mộc</a></li> <!-- Custom url here-->
                             </ul>
                         </li>
 						<li><a href="#">Tin tức</a></li>
-						<li><a href="#">Liên hệ</a></li>
+						<li><a href="#footer">Liên hệ</a></li>
 					</ul>
 				</nav>
 			</div>
