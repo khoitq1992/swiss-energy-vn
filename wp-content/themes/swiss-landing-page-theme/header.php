@@ -37,7 +37,7 @@ $theme_url = get_template_directory_uri() . '/';
                                 <li><a href="<?php echo get_site_url() . "/vien-keo-ngam-thao-moc"?>">Viên kẹo ngậm thảo mộc</a></li> <!-- Custom url here-->
                             </ul>
                         </li>
-						<li><a href="">Tin tức</a></li>
+						<li><a href="<?php echo get_site_url() . "/category/all-posts/";?>">Tin tức</a></li>
 						<li><a href="#footer">Liên hệ</a></li>
 					</ul>
 				</nav>

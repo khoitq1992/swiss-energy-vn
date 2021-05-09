@@ -8,7 +8,6 @@ class PopupManager {
 
     // Add pairs
     addPair (triggerCSS, popupCSS, exitCSS) {
-        console.log("Add Pair");
         this.pairs.push({
             trigger: triggerCSS,
             popup: {
@@ -21,7 +20,6 @@ class PopupManager {
     // Initiate
     initiate () {
         // Assign event-handler loop
-        console.log("Initiate");
         this.pairs.forEach((item) => {
             jQuery(item.trigger).on("click", () => this.tooglePopup(jQuery(item.popup.content)));
             jQuery(item.popup.exit).on("click", () => this.tooglePopup(jQuery(item.popup.content)));
