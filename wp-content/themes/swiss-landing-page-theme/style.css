@@ -17,6 +17,10 @@ div.logo {
     border-radius: 20px;
 }
 
+header div.social-icon a.custom-link:hover {
+    color: white;
+}
+
 div.logo > a > img {
     max-width: 60%;
 }
@@ -588,6 +592,7 @@ div.send-email-form > div.wpcf7 form p input {
 }
 
 div.send-email-form > div.wpcf7 form p input.submit-button {
+    cursor: pointer;
     display: block;
     margin: auto;
     width: 40%;
@@ -687,6 +692,11 @@ section.popup > div.container > div.popup > div.product-img-gallery > div.main-i
     width: 100%;
 }
 
+section.popup > div.container > div.popup > div.product-img-gallery > div.img-list {
+    overflow: scroll;
+    display: flex;
+}
+
 section.popup > div.container > div.popup > div.product-img-gallery > div.img-list > img {
     width: 6em;
     height: 6em;
@@ -757,6 +767,10 @@ section.related-post {
     margin-bottom: 4em;
 }
 
+section.related-post a.custom-link {
+    color: #D82C28;
+}
+
 section.related-post img.post-thumb {
     width: 100%;
 }
@@ -782,12 +796,58 @@ section.post-list {
     text-align: center;
 }
 
+section.post-list a.custom-link {
+    color: #D82C28;
+}
+
 section.post-list div.post-thumbnail > img {
     width: 100%;
 }
 
 /* Phone responsive */
 @media only screen and (max-width: 600px) {
+    /* Popup */
+    section.popup {
+        padding:0;
+        height: auto;
+    }
+
+    section.popup > div.container {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    section.popup > div.container > div.popup {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    section.popup > div.container > div.popup > div.product-img-gallery > div.main-image {
+        width: 100%;
+        height: auto;
+    }
+
+    section.popup > div.container > div.popup > div.text-content {
+        padding-top: 0;
+    }
+
+    section.popup > div.container > div.popup > div.text-content > h3.title {
+        text-align: left;
+    }
+
+    section.popup > div.container > div.popup > div.buy-button {
+        width: 100%;
+    }
+
+    section.popup > div.container > div.popup > div.buy-button > button {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
     /* Header */
     header {
         position: fixed;
@@ -870,6 +930,10 @@ section.post-list div.post-thumbnail > img {
         padding-top: 51px;
     }
 
+    div.carousel-inner > div.carousel-item > img {
+        height: 398px;
+    }
+
     /* Section strength */
     section.strength > div.container-fluid > div.row > div.col-sm-3 {
         width: 100%;
@@ -933,6 +997,11 @@ section.post-list div.post-thumbnail > img {
     section.product-list {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    section.product-list > div.row.item-right {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     section.product-list > div.row > div.col-sm-6 {
@@ -1039,6 +1108,10 @@ section.post-list div.post-thumbnail > img {
 
 .custom-icon:hover {
     transform:scale(1.5); /* this is grow amount */
+}
+
+.hover {
+    cursor: pointer;
 }
 
 .

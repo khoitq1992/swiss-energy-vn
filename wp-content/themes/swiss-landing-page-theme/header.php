@@ -45,9 +45,9 @@ $theme_url = get_template_directory_uri() . '/';
 			<div class="col-sm-3">
 				<div class="social-icon">
 					<ul>
-						<li><i class="fab fa-facebook social-facebook custom-icon"></i></li>
-						<li><i class="fab fa-instagram social-instagram custom-icon"></i></li>
-						<li><i class="fab fa-whatsapp social-whatsapp custom-icon"></i></li>
+						<li class="hover"><i class="fab fa-facebook social-facebook custom-icon"></i></li>
+						<li class="hover"><i class="fab fa-instagram social-instagram custom-icon"></i></li>
+						<li class="hover"><a class="custom-link" href="tel:+84909827715"><i class="fas fa-phone custom-icon"></i></a></li>
 					</ul>
 				</div>
 			</div>

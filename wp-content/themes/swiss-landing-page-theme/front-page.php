@@ -120,11 +120,11 @@ $theme_url = get_template_directory_uri() . '/';
             <div class="row">
                 <div class="col-sm-6 product">
                     <img src="<?php echo $theme_url; ?>image/product-image-1.jpg">
-                    <h5><a class="custom-link" href="<?php echo get_site_url() . "/vien-nang-giai-phong-cham"?>">VIÊN NANG GIẢI PHÓNG CHẬM</a></h5>
+                    <h5 class="hover"><a class="custom-link" href="<?php echo get_site_url() . "/vien-nang-giai-phong-cham"?>">VIÊN NANG GIẢI PHÓNG CHẬM</a></h5>
                 </div>
                 <div class="col-sm-6 product">
                     <img src="<?php echo $theme_url; ?>image/product-image-1.jpg">
-                    <h5><a class="custom-link" href="<?php echo get_site_url() . "/vien-keo-ngam-thao-moc"?>">KẸO NGẬM THẢO MỘC</a></h5>
+                    <h5 class="hover"><a class="custom-link" href="<?php echo get_site_url() . "/vien-keo-ngam-thao-moc"?>">KẸO NGẬM THẢO MỘC</a></h5>
                 </div>
             </div>
         </div>

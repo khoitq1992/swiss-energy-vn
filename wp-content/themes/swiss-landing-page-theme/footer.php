@@ -24,9 +24,8 @@ $theme_url = get_template_directory_uri() . '/';
 				</div>
 				<div class="social-list">
 					<ul>
-						<li><i class="fab fa-facebook social-facebook custom-icon"></i></li>
-						<li><i class="fab fa-instagram social-instagram custom-icon"></i></li>
-						<li><i class="fab fa-whatsapp social-whatsapp custom-icon"></i></li>
+						<li class="hover"><i class="fab fa-facebook social-facebook custom-icon"></i></li>
+						<li class="hover"><i class="fab fa-instagram social-instagram custom-icon"></i></li>
 					</ul>
 				</div>
 			</div>

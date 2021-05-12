@@ -7,7 +7,7 @@ $theme_url = get_template_directory_uri() . '/';
 <section class="popup product-3">
 	<div class="container">
 		<div class="popup">
-			<div class="button-exit" >
+			<div class="button-exit hover" >
 				<div>x</div>
 			</div>
 			<div class="product-img-gallery">
@@ -21,7 +21,7 @@ $theme_url = get_template_directory_uri() . '/';
 				</div>
 			</div>
 			<div class="buy-button">
-				<button><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-khuynh-diep-va-bac-ha">Mua hàng</a></button>
+				<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-khuynh-diep-va-bac-ha">Mua hàng</a></button>
 			</div>
 			<div class="text-content">
 				<h3 class="title">KẸO NGẬM SWISS ENERGY 20 LOẠI THẢO MỘC + KHUYNH DIỆP VÀ BẠC HÀ</h3>
@@ -39,7 +39,7 @@ $theme_url = get_template_directory_uri() . '/';
 <section class="popup product-4">
     <div class="container">
         <div class="popup">
-            <div class="button-exit" >
+            <div class="button-exit hover" >
                 <div>x</div>
             </div>
             <div class="product-img-gallery">
@@ -54,7 +54,7 @@ $theme_url = get_template_directory_uri() . '/';
                 </div>
             </div>
             <div class="buy-button">
-                <button><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-mat-ong">Mua hàng</a></button>
+                <button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-mat-ong">Mua hàng</a></button>
             </div>
             <div class="text-content">
                 <h3 class="title">KẸO NGẬM SWISS ENERGY 20 LOẠI THẢO MỘC + MẬT ONG</h3>
@@ -72,7 +72,7 @@ $theme_url = get_template_directory_uri() . '/';
 <section class="popup product-5">
     <div class="container">
         <div class="popup">
-            <div class="button-exit" >
+            <div class="button-exit hover" >
                 <div>x</div>
             </div>
             <div class="product-img-gallery">
@@ -87,7 +87,7 @@ $theme_url = get_template_directory_uri() . '/';
                 </div>
             </div>
             <div class="buy-button">
-                <button><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-cay-xo-thom">Mua hàng</a></button>
+                <button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-cay-xo-thom">Mua hàng</a></button>
             </div>
             <div class="text-content">
                 <h3 class="title">KẸO NGẬM SWISS ENERGY 20 LOẠI THẢO MỘC + CÂY XÔ THƠM</h3>
@@ -155,8 +155,8 @@ $theme_url = get_template_directory_uri() . '/';
 						<li><span>Hướng dẫn sử dụng:</span> Dùng trực tiếp sau khi mở.</li>
 					</ul>
 					<div class="button-group">
-						<button class="learn-more"">Xem thêm</button>
-						<button><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-khuynh-diep-va-bac-ha">Mua hàng</a></button>
+						<button class="learn-more hover">Xem thêm</button>
+						<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-khuynh-diep-va-bac-ha">Mua hàng</a></button>
 					</div>
 				</div>
 			</div>
@@ -175,8 +175,8 @@ $theme_url = get_template_directory_uri() . '/';
 						<li><span>Hướng dẫn sử dụng:</span> Dùng trực tiếp sau khi mở.</li>
 					</ul>
 					<div class="button-group">
-						<button class="learn-more">Xem thêm</button>
-						<button><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-mat-ong">Mua hàng</a></button>
+						<button class="learn-more hover">Xem thêm</button>
+						<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-mat-ong">Mua hàng</a></button>
 					</div>
 				</div>
 			</div>
@@ -201,8 +201,8 @@ $theme_url = get_template_directory_uri() . '/';
 						<li><span>Hướng dẫn sử dụng:</span> Dùng trực tiếp sau khi mở.</li>
 					</ul>
 					<div class="button-group">
-						<button class="learn-more">Xem thêm</button>
-						<button><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-cay-xo-thom">Mua hàng</a></button>
+						<button class="learn-more hover">Xem thêm</button>
+						<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/keo-ngam-swiss-energy-20-loai-thao-moc-cay-xo-thom">Mua hàng</a></button>
 					</div>
 				</div>
 			</div>

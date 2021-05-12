@@ -7,7 +7,7 @@ $theme_url = get_template_directory_uri() . '/';
 <section class="popup product-1">
 	<div class="container">
 		<div class="popup">
-			<div class="button-exit" >
+			<div class="button-exit hover" >
 				<div>x</div>
 			</div>
 			<div class="product-img-gallery">
@@ -15,11 +15,12 @@ $theme_url = get_template_directory_uri() . '/';
 					<img src="<?php echo $theme_url; ?>image/vien-nang-active-detail.jpg" alt="main-image">
 				</div>
 				<div class="img-list">
+                    <img class="image" src="<?php echo $theme_url; ?>image/vien-nang-active.png" alt="image-thumbnail">
 					<img class="image" src="<?php echo $theme_url; ?>image/vien-nang-active-detail.jpg" alt="image-thumbnail">
 				</div>
 			</div>
 			<div class="buy-button">
-				<button><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-activelife-vien-nang-bo-sung-nang-luong">Mua hàng</a></button>
+				<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-activelife-vien-nang-bo-sung-nang-luong">Mua hàng</a></button>
 			</div>
 			<div class="text-content">
 				<h3 class="title">VIÊN NANG VITAMIN TỔNG HỢP BỔ SUNG NĂNG LƯỢNG</h3>
@@ -40,7 +41,7 @@ $theme_url = get_template_directory_uri() . '/';
 <section class="popup product-2">
     <div class="container">
         <div class="popup">
-            <div class="button-exit" >
+            <div class="button-exit hover" >
                 <div>x</div>
             </div>
             <div class="product-img-gallery">
@@ -48,11 +49,12 @@ $theme_url = get_template_directory_uri() . '/';
                     <img src="<?php echo $theme_url; ?>image/vien-nang-vitamin-nang-luong-active-detail.jpg" alt="main-image">
                 </div>
                 <div class="img-list">
+                    <img class="image" src="<?php echo $theme_url; ?>image/vien-nang-vitamin-nang-luong-active.png" alt="image-thumbnail">
                     <img class="image" src="<?php echo $theme_url; ?>image/vien-nang-vitamin-nang-luong-active-detail.jpg" alt="image-thumbnail">
                 </div>
             </div>
             <div class="buy-button">
-                <button><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-prenatal-multivit-tang-cuong-suc-khoe-cho-phu-nu-mang-thai-va-cho-con-bu">Mua hàng</a></button>
+                <button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-prenatal-multivit-tang-cuong-suc-khoe-cho-phu-nu-mang-thai-va-cho-con-bu">Mua hàng</a></button>
             </div>
             <div class="text-content">
                 <h3 class="title">VIÊN NANG VITAMIN TỔNG HỢP BỔ SUNG NĂNG LƯỢNG</h3>
@@ -124,8 +126,8 @@ $theme_url = get_template_directory_uri() . '/';
 						<li><span>Hướng dẫn sử dụng:</span> Mỗi ngày 1 viên, sau bữa ăn.</li>
 					</ul>
 					<div class="button-group">
-						<button class="learn-more">Xem thêm</button>
-						<button><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-activelife-vien-nang-bo-sung-nang-luong">Mua hàng</a></button>
+						<button class="learn-more hover">Xem thêm</button>
+						<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-activelife-vien-nang-bo-sung-nang-luong">Mua hàng</a></button>
 					</div>
 				</div>
 			</div>
@@ -144,8 +146,8 @@ $theme_url = get_template_directory_uri() . '/';
 						<li><span>Hướng dẫn sử dụng:</span> Mỗi ngày một viên, sau bữa ăn.</li>
 					</ul>
 					<div class="button-group">
-						<button class="learn-more">Xem thêm</button>
-						<button><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-prenatal-multivit-tang-cuong-suc-khoe-cho-phu-nu-mang-thai-va-cho-con-bu">Mua hàng</a></button>
+						<button class="learn-more hover">Xem thêm</button>
+						<button class="hover"><a class="custom-link" href="https://medpackplus.vn/vi/swiss-energy-prenatal-multivit-tang-cuong-suc-khoe-cho-phu-nu-mang-thai-va-cho-con-bu">Mua hàng</a></button>
 					</div>
 				</div>
 			</div>
