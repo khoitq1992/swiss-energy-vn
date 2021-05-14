@@ -935,6 +935,10 @@ section.post-list div.post-thumbnail > img {
     }
 
     /* Section strength */
+    section.strength {
+        padding: 2em 3em;
+    }
+
     section.strength > div.container-fluid > div.row > div.col-sm-3 {
         width: 100%;
         padding: 0;
@@ -943,7 +947,7 @@ section.post-list div.post-thumbnail > img {
 
     /* Section why choose us */
     section.why-choose-us {
-        padding: 1em;
+        padding: 1em 2em;
         margin: 0;
     }
 
@@ -960,7 +964,7 @@ section.post-list div.post-thumbnail > img {
 
     /* Section product */
     section.product {
-        padding: 1em;
+        padding: 1em 2em;
         margin-bottom: 0;
     }
 
@@ -995,8 +999,8 @@ section.post-list div.post-thumbnail > img {
     }
 
     section.product-list {
-        padding-right: 0;
-        padding-left: 0;
+        padding-right: 1em;
+        padding-left: 1em;
     }
 
     section.product-list > div.row.item-right {
@@ -1011,6 +1015,11 @@ section.post-list div.post-thumbnail > img {
 
     section.product-list div.button-group {
         display: flex;
+    }
+
+    section.product-list > div.row div.content > div.button-group > button {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     /* Footer */
@@ -1028,6 +1037,10 @@ section.post-list div.post-thumbnail > img {
 
     div.social-list {
         display: none;
+    }
+
+    footer > div.container > div.row {
+        padding: 0 1.5em;
     }
 
     /* Form */
