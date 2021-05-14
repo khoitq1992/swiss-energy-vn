@@ -693,8 +693,9 @@ section.popup > div.container > div.popup > div.product-img-gallery > div.main-i
 }
 
 section.popup > div.container > div.popup > div.product-img-gallery > div.img-list {
-    overflow: scroll;
+    overflow: auto;
     display: flex;
+    justify-content: center;
 }
 
 section.popup > div.container > div.popup > div.product-img-gallery > div.img-list > img {
